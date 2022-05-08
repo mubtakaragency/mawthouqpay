@@ -156,7 +156,7 @@ function init_your_gateway_class() {
           'currency' => '012',
           'orderNumber' => $order_id,
           'returnUrl' => $returnUrl,
-          'jsonParams' => '{"orderNumber":'.$order_id.',"udf1":"'.$order_id.'","udf5":"00","force_terminal_id":"E002000007"}'
+          'jsonParams' => '{"orderNumber":'.$order_id.',"udf1":"'.$order_id.'","udf5":"00","force_terminal_id":""}'
         )
       );
 
